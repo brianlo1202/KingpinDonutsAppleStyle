@@ -2,13 +2,25 @@ html, body {
   margin: 0px;
 }
 
+nav {
+  background-color: #363431;
+  width: 100%;
+
+  position: fixed;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px;
+}
+
 .brownProductSection, .yellowProductSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
-  position: relative;
 
 }
 
@@ -38,6 +50,10 @@ html, body {
 
 /* images */
 
+.logo {
+  width: 24px;
+}
+
 .regularDonutImage {
   width: 600px;
   height: 460px;
@@ -65,9 +81,15 @@ html, body {
   margin-left: -200px;
 
 }
+
+.lineSpace {
+  height: 40px;
+
+}
+
 /* text */
 
-h1, h2, h3, a{
+h1, h2, h3, h4, a{
   font-family: Arial;
   font-weight: normal;
   margin: 0px; /* reset all spacing */
@@ -88,6 +110,10 @@ h3 {
   color: #B1B1B1;
   margin-top: 4px;
 }
+h4 {
+  color: #363431;
+  font-size: 18px;
+}
 a {
   font-size: 24px;
   text-decoration: none;
@@ -97,6 +123,14 @@ a {
   margin-left: 32px;
   margin-right: 32px;
   margin-bottom: 0px;
+}
+
+.navText {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 0px;
+  margin-left: 36px;
+  margin-right: 36px;
 }
 
 .whiteText {
