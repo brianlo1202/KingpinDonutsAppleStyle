@@ -17,7 +17,7 @@ html, body {
 }
 
 .yellowProductSection {
-  background-color: ##E8D3B7;
+  background-color: #E8D3B7;
 
 }
 
@@ -29,15 +29,42 @@ html, body {
   justify-content: space-around;
 }
 
+.ExtraFancyDonutImages {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:center;
+}
+
 /* images */
 
 .regularDonutImage {
   width: 700px;
-  height: 500px;
+  height: 480px;
   object-fit: cover;
   object-position: 100% 0%;
 }
 
+.fancyDonutImage {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+  object-position: 100% 0%;
+
+  margin-top: 20px;
+}
+
+.extraFancyDonutImage {
+  width: 700px;
+  height: 550px;
+  object-fit: cover;
+  object-position: 100% 0%;
+
+  margin-top: 20px;
+  margin-right: -220px;
+  margin-left: -220px;
+
+}
 /* text */
 
 h1, h2, h3, a{
@@ -54,10 +81,12 @@ h1 {
 }
 h2 {
   font-size: 28px;
+  text-align: center;
 }
 h3 {
   font-size: 18px;
   color: #B1B1B1;
+  margin-top: 4px;
 }
 a {
   font-size: 24px;
@@ -67,17 +96,28 @@ a {
   margin-top: 32px;
   margin-left: 32px;
   margin-right: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
-/* white text */
 .whiteText {
   color: #FFFFFF;
 }
 
-.greyText {
+.darkText {
+  color: #363431;
+}
+
+.lightGreyText {
   color: #B1B1B1;
 
+}
+
+.darkBlue {
+  color: #008BFF;
+}
+
+.darkGreyText{
+  color: #8D8D8D;
 }
 
 .h1Light {
