@@ -63,12 +63,12 @@ nav {
 }
 
 .fancyDonutImage {
-  width: 600px;
-  height: 460px;
+  width: 550px;
+  height: 430px;
   object-fit: cover;
   object-position: 100% 0%;
 
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .extraFancyDonutImage {
@@ -83,10 +83,49 @@ nav {
 
 }
 
+.OurStoryImage {
+  width: 500px;
+}
+
 .lineSpace {
   height: 40px;
 
 }
+
+.OurStoryPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+
+  background-color: #E8D3B7;
+}
+
+.OurStoryPicAndText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  width: 33%;
+
+  margin-bottom: 50px;
+}
+
+.textCol h1, .textCol h3 {
+  text-align: left;
+}
+
 
 /* text */
 
@@ -94,12 +133,13 @@ h1, h2, h3, h4, a{
   font-family: Arial;
   font-weight: normal;
   margin: 0px; /* reset all spacing */
+  text-align: center;
 }
 
 h1 {
   font-size: 70px;
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 70px;
   margin-bottom: 16px;
 }
 h2 {
@@ -140,6 +180,10 @@ a {
 
 .darkText {
   color: #363431;
+}
+
+.mediumText {
+  color: #5C5854
 }
 
 .lightGreyText {
