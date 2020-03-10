@@ -53,6 +53,7 @@ nav {
 
 .logo {
   width: 24px;
+  margin-right: 36px;
 }
 
 .regularDonutImage {
@@ -117,7 +118,7 @@ nav {
   align-items: flex-start;
   justify-content: flex-start;
 
-  width: 33%;
+  width: 30%;
 
   margin-bottom: 50px;
 }
@@ -183,7 +184,8 @@ a {
 }
 
 .mediumText {
-  color: #5C5854
+  color: #5C5854;
+  font-size: 20px;
 }
 
 .lightGreyText {
