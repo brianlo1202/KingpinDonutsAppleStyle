@@ -88,8 +88,17 @@ nav {
   width: 500px;
 }
 
+.mapIMG {
+  width: 300px;
+}
+
 .lineSpace {
   height: 40px;
+
+}
+
+.minilineSpace {
+  height: 20px;
 
 }
 
@@ -102,6 +111,7 @@ nav {
   background-color: #E8D3B7;
 }
 
+
 .OurStoryPicAndText {
   display: flex;
   flex-direction: row;
@@ -110,6 +120,16 @@ nav {
 
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.ContactForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-top: : 200px;
+  margin-bottom: : 200px;
 }
 
 .textCol {
@@ -130,7 +150,7 @@ nav {
 
 /* text */
 
-h1, h2, h3, h4, a{
+h1, h2, h3, h4, a, label{
   font-family: Arial;
   font-weight: normal;
   margin: 0px; /* reset all spacing */
@@ -165,6 +185,22 @@ a {
   margin-left: 32px;
   margin-right: 32px;
   margin-bottom: 0px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.form input {
+  margin-bottom: 30px;
+  border-radius: 7px;
+  width : 200px;
+  height: 20px;
+}
+
+#mess {
+  height: 400px;
+  width: 300px;
 }
 
 .navText {
